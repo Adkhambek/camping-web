@@ -62,10 +62,10 @@
     border-radius: $border-radius;
     @include center;
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 0;
     transform: translateY(calc(-50% - 100px) );
-    @include responsive(phone){
+    @include responsive(tab){
         right: 50%;
         transform: translate(50%, calc(-50% - 100px));
       }

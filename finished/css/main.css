@@ -228,13 +228,13 @@ input {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  right: 0;
+  right: 20px;
   top: 0;
   -webkit-transform: translateY(calc(-50% - 100px));
           transform: translateY(calc(-50% - 100px));
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .scroll-up {
     right: 50%;
     -webkit-transform: translate(50%, calc(-50% - 100px));
